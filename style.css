@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+        /* Colors */
+    --Purple100: hsl(254, 88%, 90%);
+    --Purple500: hsl(256, 67%, 59%);
+    
+    --Yellow100: hsl(31, 66%, 93%);
+    --Yellow500: hsl(39, 100%, 71%);
+    
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 7%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: grid;
+    place-content: center;
+    background-color: rgb(244, 244, 244);
+}
+
+p {
+    font-size: 18px;
+}
+
+h1, h2 {
+    line-height: 30px;
+}
+
+.grid {
+    width: 100%;
+    padding: 4%;
+    display: grid;
+}   
+
+.grid_item {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Social */
+
+.social {
+    background: var(--Purple500);
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    color: var(--White);
+    padding: 30px;
+}
+
+.social h1 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 40px;
+}
+
+.social span:nth-child(1) {
+    color: var(--Yellow500);
+}
+
+.social span:nth-child(2) {
+    font-style: italic;
+}
+
+.social img {
+    width: 70%;
+    margin: 25px 0 5px;
+}
+
+                                /* Manage */
+
+.manage {
+    background: var(--White);
+}
+
+.manage h3 {
+    margin-top: 15px;
+}
+
+.manage .flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.manage .social_acc {
+    display: flex;
+    background: var(--White);
+    border-radius: 2000px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -5px 5px 10px hsl(256deg 67% 59% / 7%);
+}
+
+.manage .social_acc .social_icon {
+    width: 45px;
+    height: 45px;
+    background-color: var(--Yellow500);
+    padding: 10px;
+    border-radius: 2000px;
+}
+
+.manage .social_acc .social_icon img {
+    width: 100%;
+    height: 100%;
+    fill: red;
+}
+
+.manage .social_acc p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.manage .social_acc p:nth-child(2) {
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10px;
+    color: rgb(183 181 181);
+}
+
+                            /* maintain */
+.maintain {
+    padding: 15px 15px 0;
+    background-color: var(--Yellow500);
+    color: var(--Black);
+    overflow: hidden;
+}
+
+.maintain img {
+    width: 60%;
+    position: relative;
+    bottom: -25px;
+}
+
+                        /* schedule */
+.schedule {
+    padding: 30px 15px;
+    background-color: var(--Purple100);
+    color: var(--Black);
+    text-align: center;
+}
+
+.schedule img{
+    width: 100%;
+    margin: 15px 0 20px;
+}
+
+.schedule p {
+    font-weight: 500;
+}
+
+                        /* Grow */
+.grow {
+    background-color: var(--Purple500);
+    text-align: center;
+    padding: 25px 50px;
+    color: var(--White);
+}
+
+.grow img {
+    width: 100%;
+}
+
+.grow h1 {
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+                /* Stats */
+.stats {
+    background-color: var(--White);
+    color: var(--Black);
+}
+
+.stats h1 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.stats p {
+    margin: 0px 0 20px;
+}
+
+.stats img {
+    width: 60%;
+}
+
+                            /* Create */
+.create {
+    background-color: var(--Yellow100);
+    padding: 35px;
+}
+
+.create h1 {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.create h1 span {
+    color: var(--Purple500);
+    font-style: italic;
+}
+
+.create img {
+    width: 65%;
+    margin-top: 20px;
+}
+
+                            /* Write */
+.write {
+    background-color: var(--Yellow500);
+
+}
+
+.write h1 { 
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.write img {
+    width: 65%;
+    margin-top: 20px;
+}
+
+@media only screen and(min-width: 1024px) {
+    .grid { 
+        
+    }
+}
